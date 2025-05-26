@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="absolute w-full -bottom-0">
       <div className="bg-[#CECFC9] dark:bg-[#1B263B]">
-        <div className="container mx-auto py-4 px-12 flex flex-wrap flex-col sm:flex-row">
+        <div className="container mx-auto py-4 px-12 flex items-center justify-between flex-row">
           <p className="text-gray-900 dark:text-gray-50 font-medium text-sm text-center sm:text-left">
             © {year}
             <a
